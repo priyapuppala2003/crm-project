@@ -1,0 +1,55 @@
+GET http://localhost:8080/api/customers
+
+<> 2026-08-17T122442.200.json
+
+###
+DELETE http://localhost:8080/api/customers/1
+
+<> 2026-08-17T122356.200.txt
+
+###
+PUT http://localhost:8080/api/customers/1
+Content-Type: application/json
+
+{
+  "name": "Tejaswini Updated",
+  "email": "tejaswini@gmail.com",
+  "phone": "9999999999",
+  "company": "CRM Company"
+}
+
+<> 2026-08-17T122250.200.json
+
+###
+GET http://localhost:8080/api/customers
+
+<> 2026-08-17T122124.200.json
+
+###
+GET http://localhost:8080/api/customers
+
+<> 2026-08-17T122112.200.json
+
+###
+POST http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "name": "Tejaswini",
+  "email": "tejaswini@gmail.com",
+  "phone": "9876543210"
+}
+
+<> 2026-08-17T122005.200.json
+
+###
+POST http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "name": "Tejaswini",
+  "email": "tejaswini@gmail.com",
+  "phone": "9876543210"
+}
+
+###

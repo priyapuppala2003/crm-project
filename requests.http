@@ -1,0 +1,26 @@
+### Get all customers
+GET http://localhost:8080/api/customers
+
+### Update customer
+PUT http://localhost:8080/api/customers/1
+Content-Type: application/json
+
+{
+  "name": "Tejaswini Updated",
+  "email": "tejaswini@gmail.com",
+  "phone": "9999999999",
+  "company": "CRM Company"
+}
+
+### Add customer
+POST http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "name": "Tejaswini",
+  "email": "tejaswini@gmail.com",
+  "phone": "9876543210"
+}
+
+### Delete customer
+DELETE http://localhost:8080/api/customers/1

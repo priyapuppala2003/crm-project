@@ -1,16 +1,96 @@
-# React + Vite
+# CRM Software
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack Customer Relationship Management (CRM) application developed using **Java Spring Boot, React.js, MySQL, and JWT Authentication**.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This CRM system helps businesses manage customers, leads, tasks, and sales pipelines from a centralized platform.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
 
-## Expanding the Oxlint configuration
+* Java
+* Spring Boot
+* Spring Security
+* JWT Authentication
+* MySQL
+* Maven
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Frontend
+
+* React.js
+* Vite
+* JavaScript
+* CSS
+
+## Main Features
+
+* User Registration and Login
+* JWT-based Authentication
+* Customer Management
+* Lead Management
+* Task Management
+* Sales Pipeline
+* Sales and Performance Dashboard
+* Role-based Access
+* REST APIs
+
+## Project Structure
+
+```text
+crm-project/
+├── Backend
+│   ├── src/
+│   ├── pom.xml
+│   └── ...
+└── Frontend
+    ├── src/
+    ├── package.json
+    └── ...
+```
+
+## Database
+
+The project uses **MySQL** for storing CRM data.
+
+Database name:
+
+`crm_db`
+
+## Running the Project
+
+### Backend
+
+Run the Spring Boot application from IntelliJ.
+
+Backend runs on:
+
+`http://localhost:8080`
+
+### Frontend
+
+Run the React application using:
+
+```bash
+npm install
+npm run dev
+```
+
+Frontend runs on:
+
+`http://localhost:5173`
+
+## Modules
+
+1. Authentication
+2. Customers
+3. Leads
+4. Tasks
+5. Sales Pipeline
+6. Reports & Dashboard
+7. Security
+
+## Project Status
+
+**Completed** — Current working version uploaded to GitHub.
